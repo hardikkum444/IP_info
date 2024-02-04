@@ -1,9 +1,7 @@
-#library for making html requests
 import requests
-#library for custom text using figlet
 from pyfiglet import Figlet
 
-#Banner
+
 def banner():
     custom_setting = Figlet(font = 'doom')
     custom_banner = custom_setting.renderText("IP INFO by HARDIK")
@@ -17,7 +15,7 @@ def get_ip_info(ip_address):
     if response.status_code == 200:
         
         data = response.json()
-        #the data structure of data here is dictionary
+        
         
         print("IP Address:", data.get("ip"))
         print("Country:", data.get("country"))
@@ -28,7 +26,7 @@ def get_ip_info(ip_address):
     else:
         print("Error:", response.status_code)
 
-if __name__ == "__main__":  #used to determine whether the python script is being run as the main script
+if __name__ == "__main__":  
     banner()
     target_ip = input("Enter the target IP address: ")
     get_ip_info(target_ip)

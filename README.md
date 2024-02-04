@@ -29,7 +29,7 @@ This Python script provides information about an IP address using the ipinfo.io 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/ip-info-script.git
+    git clone https://github.com/hardikkum444/IPINFO---Hardik-Kumawat.git
     cd ip-info-script
     ```
 
@@ -47,12 +47,13 @@ This Python script provides information about an IP address using the ipinfo.io 
 
 4. Follow the prompts to enter the target IP address.
 
-## License
-
-This script is licensed under the [MIT License](LICENSE).
-
 ## Author
 
 - **HARDIK** - [GitHub](https://github.com/hardik)
 
 Feel free to contribute, open issues, or provide feedback.
+
+
+
+
+[MIT License](LICENSE).

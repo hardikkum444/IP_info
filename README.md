@@ -36,13 +36,14 @@ This Python script provides information about an IP address using the ipinfo.io 
 2. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install requests
+    pip install pyfiglet
     ```
 
 3. Run the script:
 
     ```bash
-    python ip_info_script.py
+    python3 ipinfo.py
     ```
 
 4. Follow the prompts to enter the target IP address.

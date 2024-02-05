@@ -30,7 +30,7 @@ This Python script provides information about an IP address using the ipinfo.io 
 
     ```bash
     git clone https://github.com/hardikkum444/IPINFO---Hardik-Kumawat.git
-    cd ip-info-script
+    cd IPINFO---Hardik-Kumawat
     ```
 
 2. Install the required dependencies:
